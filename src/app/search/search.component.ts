@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { WeatherService } from '../weather.service';
 import { WeatherComponent } from '../weather/weather.component';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
   standalone: true,
-  imports: [CommonModule,WeatherComponent],
+  imports: [CommonModule,WeatherComponent,FormsModule],
   styleUrls: ['./search.component.css'],
 })
 export class SearchComponent {
