@@ -1,0 +1,15 @@
+<div class="search-container">
+  <form class="search-form" (ngSubmit)="onSearch()">
+    <input
+      type="text"
+      [(ngModel)]="city"
+      name="city"
+      placeholder="都市名を英語で入力してね"
+      required
+    />
+    <button type="submit">検索</button>
+  </form>
+</div>
+
+<!-- 天気表示 -->
+<app-weather [weatherData]="weatherData"></app-weather>

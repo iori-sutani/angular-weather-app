@@ -1,0 +1,14 @@
+<div class="weather-card" *ngIf="weatherData">
+  <h2>{{ weatherData.name }} の天気</h2>
+
+  <!-- 天気アイコン（OpenWeatherMap提供） -->
+  <img
+    class="weather-icon"
+    [src]="'https://openweathermap.org/img/wn/' + weatherData.weather[0].icon + '@2x.png'"
+    [alt]="weatherData.weather[0].description"
+  />
+
+  <p>🌡 気温: {{ weatherData.main.temp }} °C</p>
+  <p>🌤 状態: {{ weatherData.weather[0].description }}</p>
+  <p>💧 湿度: {{ weatherData.main.humidity }} %</p>
+</div>

@@ -1,0 +1,25 @@
+.weather-card {
+  max-width: 320px;
+  margin: 20px auto;
+  padding: 16px;
+  border-radius: 12px;
+  background: #f0f8ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.weather-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+}
