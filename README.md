@@ -27,8 +27,8 @@
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/あなたのユーザー名/リポジトリ名.git
-cd リポジトリ名
+git clone https://github.com/iori-sutani/angular-weather-app.git
+cd angular-weather-app
 
 # 依存関係のインストール
 npm install
